@@ -1,0 +1,38 @@
+# --- Build Artifacts ---
+build/
+bin/
+devel/
+logs/
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# --- CMake & Make ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.bak
+*.user
+
+# --- Simulation & Data ---
+*.log
+*.dat
+*.bag
